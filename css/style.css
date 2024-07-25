@@ -56,15 +56,20 @@ header .profession {
   color: #ccc;
 }
 
-.header-socials {
+.social-accounts {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
 .social-icon img {
-  width: 50px;
-  height: auto;
+  width: 32px;
+  height: 32px;
+  transition: color 0.5s ease-in-out;
+}
+
+.social-icon:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 red);
 }
 
 /* Section Styles */
@@ -87,7 +92,6 @@ h2 {
 
 .about-content {
   display: flex;
-  align-items: center;
   gap: 1.5rem;
 }
 
@@ -97,6 +101,7 @@ h2 {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #444;
+
 }
 
 /* Project Section */
@@ -214,14 +219,21 @@ h2 {
 }
 
 .education-logo, .experience-logo, .certification-logo {
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   margin-right: 1rem;
   align-self: flex-start;
 }
 
 .education-card h3, .experience-card h3, .certification-card h3 {
   font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.education-card h2, .experience-card h2, .certification-card h2 {
+  font-size: 1rem;
   font-weight: bold;
   color: #fff;
   margin: 0;
@@ -244,14 +256,15 @@ h2 {
     margin-bottom: 1rem;
   }
 
-  .header-socials {
-    flex-direction: row;
-    justify-content: center;
-  }
-
   .about-content {
     flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+
+  .social-accounts {
+    flex-direction: row;
+    justify-content: center;
   }
 
   .profile-pic {
