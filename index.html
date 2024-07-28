@@ -5,22 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KucingMaboek Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 </head>
 <body>
 <header>
   <div class="container">
     <div class="header-content">
-      <img src="img/logo.png" alt="Logo" class="logo">
+      <!--      <img src="img/logo.png" alt="Logo" class="logo">-->
       <div class="header-content2">
         <div class="header-info">
-          <h1>KucingMaboek</h1>
-          <p class="profession">Game Programmer</p>
+          <h1>Iqbal Al-Mahdi</h1>
+          <p class="profession">Unity Developer | Unity Networking | AR & VR</p>
         </div>
-        <!--        <div class="header-socials">-->
-        <!--          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon linkedin" title="LinkedIn">-->
-        <!--            <img src="img/logo.png" alt="LinkedIn"> Download Resume-->
-        <!--          </a>-->
-        <!--        </div>-->
+        <div>
+          <a href="https://drive.google.com/file/d/1mZF3Hl9L3YXU8u7Jg9nG-zXU1eb6zYtr/view?usp=sharing" target="_blank"
+             class="download-resume">Download Resume</a>
+        </div>
       </div>
     </div>
   </div>
@@ -37,10 +38,10 @@
           in ipsum eu massa sodales ultricies vitae sed erat. Nulla faucibus bibendum tristique. Pellentesque ultrices
           porttitor mi. Donec rutrum, ligula eu imperdiet mattis, arcu erat tincidunt risus, a congue quam dui nec
           ligula. Morbi iaculis condimentum euismod. Sed tincidunt ante in libero hendrerit pellentesque ac id magna.
-          Cras
-          vulputate, nisl vel laoreet malesuada, nunc diam pellentesque mi, at egestas enim nibh sit amet arcu. Donec
-          ullamcorper mauris sit amet velit eleifend, a bibendum ex tempor. Vestibulum ante ipsum primis in faucibus
-          orci luctus et ultrices posuere cubilia curae;</p>
+          Cras vulputate, nisl vel laoreet malesuada, nunc diam pellentesque mi, at egestas enim nibh sit amet arcu.
+          Donec ullamcorper mauris sit amet velit eleifend, a bibendum ex tempor. Vestibulum ante ipsum primis in faucibus
+          orci luctus et ultrices posuere cubilia curae;
+        </p>
         <div class="social-accounts">
           <a href="https://www.linkedin.com/in/iqbal-al-mahdi/" target="_blank" class="social-icon" title="LinkedIn">
             <img src="img/linkedin-logo.png" alt="LinkedIn">
@@ -58,49 +59,32 @@
         </div>
       </div>
     </div>
-
   </div>
 </section>
-<section id="projects">
+<section id="featured-projects">
   <div class="container">
-    <h2>My Projects</h2>
-    <div class="projects-grid">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
       <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
         <div class="project-image">
           <img src="img/logo.png" alt="Project One Screenshot">
-          <div class="project-details">
-            <div class="detail">
-              <img src="img/team-icon.png" alt="Team Icon"> 1
+          <div class="project-additional-info">
+            <div>
+              <img src="img/team-icon.png" alt="Team Icon">
+              <p>1</p>
             </div>
-            <div class="detail">
-              <img src="img/tool-icon.png" alt="Tools Icon"> Unity, Oculus, Photon, Agora
-            </div>
-          </div>
-        </div>
-        <div class="project-info">
-          <h3 class="name">Ransverse</h3>
-          <p class="role">Lead Programmer</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat interdum
-            porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
-        </div>
-      </div>
-      <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
-        <div class="project-image">
-          <img src="img/logo.png" alt="Project Two Screenshot">
-          <div class="project-details">
-            <div class="detail">
-              <img src="img/team-icon.png" alt="Team Icon"> 1
-            </div>
-            <div class="detail">
-              <img src="img/tool-icon.png" alt="Tools Icon"> Unity, Oculus, Photon, Agora
+            <div>
+              <img src="img/tool-icon.png" alt="Tools Icon">
+              <p>Unity, Oculus, Photon, Agora</p>
             </div>
           </div>
         </div>
         <div class="project-info">
-          <h3 class="name">DJKA Metaverse</h3>
-          <p class="role">Lead Programmer</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat interdum
-            porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p></div>
+          <h3 class="project-title">Ransverse</h3>
+          <p class="project-role">Lead Programmer</p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat
+            interdum porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
+        </div>
       </div>
       <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
         <div class="project-image">
@@ -108,20 +92,112 @@
             <source src="img/project3.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <div class="project-details">
-            <div class="detail">
-              <img src="img/team-icon.png" alt="Team Icon"> 1
+          <div class="project-additional-info">
+            <div>
+              <img src="img/team-icon.png" alt="Team Icon">
+              <p>1</p>
             </div>
-            <div class="detail">
-              <img src="img/tool-icon.png" alt="Tools Icon"> Unity, Firebase, Blender, Coreldraw
+            <div>
+              <img src="img/tool-icon.png" alt="Tools Icon">
+              <p>Unity, Oculus, Photon, Agora</p>
             </div>
           </div>
         </div>
         <div class="project-info">
-          <h3 class="name">Flowchart League</h3>
-          <p class="role">Developer</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat interdum
-            porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
+          <h3 class="project-title">Flowchart League</h3>
+          <p class="project-role">Developer</p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat
+            interdum porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
+        </div>
+      </div>
+      <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
+        <div class="project-image">
+          <img src="img/logo.png" alt="Project One Screenshot">
+          <div class="project-additional-info">
+            <div>
+              <img src="img/team-icon.png" alt="Team Icon">
+              <p>1</p>
+            </div>
+            <div>
+              <img src="img/tool-icon.png" alt="Tools Icon">
+              <p>Unity, Oculus, Photon, Agora</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Ransverse</h3>
+          <p class="project-role">Lead Programmer</p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat
+            interdum porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
+        </div>
+      </div>
+      <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
+        <div class="project-image">
+          <video autoplay muted loop>
+            <source src="img/project3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="project-additional-info">
+            <div>
+              <img src="img/team-icon.png" alt="Team Icon">
+              <p>1</p>
+            </div>
+            <div>
+              <img src="img/tool-icon.png" alt="Tools Icon">
+              <p>Unity, Oculus, Photon, Agora</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Flowchart League</h3>
+          <p class="project-role">Developer</p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat
+            interdum porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
+        </div>
+      </div>
+      <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
+        <div class="project-image">
+          <img src="img/logo.png" alt="Project One Screenshot">
+          <div class="project-additional-info">
+            <div>
+              <img src="img/team-icon.png" alt="Team Icon">
+              <p>1</p>
+            </div>
+            <div>
+              <img src="img/tool-icon.png" alt="Tools Icon">
+              <p>Unity, Oculus, Photon, Agora</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Ransverse</h3>
+          <p class="project-role">Lead Programmer</p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat
+            interdum porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
+        </div>
+      </div>
+      <div class="project-card" onclick="window.location.href='https://www.kucingmaboek.github.io';">
+        <div class="project-image">
+          <video autoplay muted loop>
+            <source src="img/project3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="project-additional-info">
+            <div>
+              <img src="img/team-icon.png" alt="Team Icon">
+              <p>1</p>
+            </div>
+            <div>
+              <img src="img/tool-icon.png" alt="Tools Icon">
+              <p>Unity, Oculus, Photon, Agora</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Flowchart League</h3>
+          <p class="project-role">Developer</p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis a erat
+            interdum porttitor. Nunc eget tristique nisi, ut molestie nunc. Nulla facilisi.</p>
         </div>
       </div>
     </div>
@@ -134,7 +210,8 @@
       <img src="img/university_of_jember_logo.jpeg" alt="University of Jember" class="education-logo">
       <div class="education-info">
         <h3>University of Jember</h3>
-        <p class="title">Bachelor of Computer Science, 2018 - 2024</p>
+        <p class="education-degree">Bachelor of Computer Science</p>
+        <p class="education-date">2018 - 2024</p>
         <p>GPA: 3.82</p>
       </div>
     </div>
@@ -147,11 +224,14 @@
       <img src="img/shinta_vr_logo.jpeg" alt="Shinta VR" class="experience-logo">
       <div class="experience-info">
         <h3>Shinta VR</h3>
-        <p class="position">Unity Developer, Apr 2022 - Present</p>
+        <p class="experience-position">Unity Developer</p>
+        <p class="experience-date">Apr 2022 - Present</p>
         <p></p>
         <br>
-        <p class="position">Unity Developer Intern, Feb 2021 - Aug 2021</p>
-        <p>As a Unity Developer intern, my responsibility here is to do research and development on new features that
+        <p class="experience-position">Unity Developer Intern</p>
+        <p class="education-date">Feb 2021 - Aug 2021</p>
+        <p class="experience-description">As a Unity Developer intern, my responsibility here is to do research and
+          development on new features that
           will be used in future projects. During my internship here, I have learned and implemented Multiplayer,
           Backend, and VR in Unity Engine.</p>
       </div>
@@ -160,39 +240,50 @@
       <img src="img/ruangguru_com_logo.jpeg" alt="Ruangguru" class="experience-logo">
       <div class="experience-info">
         <h3>Ruangguru</h3>
-        <p class="position">Game Designer Intern, Jul 2020 - Oct 2020</p>
-        <p>My main task as a Game Designer intern here is to implement learning content into pre-made game templates.
+        <p class="experience-position">Game Designer Intern</p>
+        <p class="experience-date">Jul 2020 - Oct 2020</p>
+        <p class="experience-description">My main task as a Game Designer intern here is to implement learning content into
+          pre-made game templates.
           several other tasks that are assigned to me, including:
-          • Doing research on animation to make tutoring more interactive.
-          • Researching interactive animations for education game templates.
-          • Help create game templates with Unity Engine.</p>
+          <br>• Doing research on animation to make tutoring more interactive.
+          <br>• Researching interactive animations for education game templates.
+          <br>• Help create game templates with Unity Engine.</p>
       </div>
     </div>
     <div class="experience-card">
       <img src="img/university_of_jember_logo.jpeg" alt="University of Jember" class="experience-logo">
       <div class="experience-info">
         <h3>University of Jember</h3>
-        <p class="position">Assistant Lecturer Coordinator, Aug 2020 - Jul 2020</p>
-        <p>As a Coordinator, my responsibility here is to lead other assistants and be a representative of assistant
+        <p class="experience-position">Assistant Lecturer Coordinator</p>
+        <p class="experience-date">Aug 2020 - Jul 2020</p>
+        <p class="experience-description">As a Coordinator, my responsibility here is to lead other assistants and be a
+          representative of assistant
           lecturers of Programming Laboratory.<br> While my main task as assistant lecturer is teaching practicum of
           several subjects such as: Object-Oriented Programming, Web Programming, and Computer Graphics.</p>
         <br>
-        <p class="position">Assistant Lecturer, Aug 2019 - Jul 2020</p>
+        <p class="experience-position">Assistant Lecturer</p>
+        <p class="experience-date">Aug 2019 - Jul 2020</p>
         <p>Teaching Practicum of Algortihms and Programming subject</p>
       </div>
     </div>
   </div>
 </section>
-<section id="certifications">
+<section>
   <div class="container">
     <h2>Certification</h2>
-    <div class="certification-card">
-      <img src="img/logo.png" alt="Company Logo" class="certification-logo">
-      <div class="certification-info">
-        <h3>Lorem Ipsum</h3>
-        <p>Lorem Ipsum</p>
-        <p>Lorem Ipsum</p>
-      </div>
+    <div class="certification-wrapper">
+      <ul class="certification-carousel">
+        <li class="certification-card">
+          <div class="certification-image"><img src="img/logo.png" draggable="false"></div>
+          <div class="certification-name">
+            <p>Lorem Ipsum dolor sit amet</p>
+          </div>
+          <div class="certification-info">
+            <p>Lorem Ipsum</p>
+            <p>Lorem</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
