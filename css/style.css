@@ -341,7 +341,7 @@ h2 {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 256px;
-  gap: 5px;
+  gap: 16px;
   overflow-x: auto;
   scroll-behavior: smooth;
 }
