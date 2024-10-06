@@ -233,6 +233,109 @@ h2 {
   -webkit-box-orient: vertical;
 }
 
+/* Other Projects Section */
+.other-projects-list {
+  padding: 0;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  list-style-type: none;
+}
+
+.other-projects-item {
+  /*padding: 8px;*/
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  /*background: #333;*/
+  margin-bottom: 8px;
+}
+
+.other-projects-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.other-projects-role {
+  color: #ccc;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.other-projects-tools {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.other-projects-button-container {
+  /*width: 128px;*/
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  /*background-color: blue;*/
+}
+
+.other-project-view-project {
+  color: white;
+  padding: 4px 8px 4px 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.other-project-view-project:hover {
+  background-color: white;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.show-more-button-container {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: blue;*/
+}
+
+.show-more-button {
+  color: white;
+  padding: 4px 8px 4px 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.show-more-button:hover {
+  background-color: white;
+  color: black;
+  transition: color 0.3s ease;
+}
+
 /* Education Section */
 .education-card {
   display: flex;
