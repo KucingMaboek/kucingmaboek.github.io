@@ -267,6 +267,7 @@ h2 {
 .other-projects-role {
   color: #ccc;
   margin: 0;
+  padding-bottom: 8px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -276,13 +277,16 @@ h2 {
 }
 
 .other-projects-tools {
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
-  -webkit-box-orient: vertical;
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+  white-space: nowrap;
 }
 
 .other-projects-button-container {
