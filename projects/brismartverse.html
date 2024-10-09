@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KucingMaboek Portfolio</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/app.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-content">
+      <!--      <img src="../img/logo.png" alt="Logo" class="logo">-->
+      <div class="header-content2">
+        <div class="header-info">
+          <h1>Iqbal Al-Mahdi</h1>
+          <p class="profession">Unity Developer | Multiplayer | AR & VR</p>
+        </div>
+        <div>
+          <a href="https://drive.google.com/file/d/1mZF3Hl9L3YXU8u7Jg9nG-zXU1eb6zYtr/view?usp=sharing" target="_blank"
+             class="download-resume">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container project-description-content">
+    <div>
+      <h2>BRISMARTVERSE</h2>
+      <div class="project-description-header">
+        <img src="../img/projects/brismartverse/icon.png" class="project-icon">
+        <p>BRISMARTVERSE is a virtual training platform launched by PT Bank Rakyat Indonesia (BRI) through BRI Corporate
+          University to train its employees using metaverse technology. The platform features include a Virtual BRI
+          Branch, where employees can access a simulated branch office complete with banking areas, management rooms,
+          meeting spaces, and back offices. Users can select avatars based on their positions, such as Branch Manager,
+          Manager, Supervisor, and Frontliner, to engage in role-playing scenarios with virtual customers who have
+          diverse needs. Additionally, the platform offers interactive service modules and virtual meeting capabilities
+          that enable collaboration without the constraints of space and time. This application is accessible via VR
+          devices like Oculus Quest, as well
+          as smartphones and Android tablets. Check the article
+          <a
+            href="https://www.cnbcindonesia.com/tech/20231226141606-37-500342/canggih-bri-hadirkan-platform-training-virtual-brismartverse">here</a>.
+        </p>
+      </div>
+      <p>In developing BRISMARTVERSE, BRI collaborated with Shinta VR for the application's creation, and I contributed
+        to this project by developing the video streaming feature. This feature allows for video streaming, which is
+        divided into two types: scheduled video and local video.</p>
+      <div>
+        <h3>Scheduled Video</h3>
+        <p>Scheduled videos will automatically play according to a predetermined schedule. The video timestamps will be
+          synchronized for all users, and users will not have control over the video playback. Scheduled videos can only
+          be managed through the web admin. These videos listen for websocket events, allowing them to play immediately
+          when a scheduled video event is triggered.</p>
+        <div class="project-video">
+          <iframe src="https://www.youtube.com/embed/tkTB6bgt7DM?si=UYGgfemuv9QOMqjj&mute=1"></iframe>
+        </div>
+      </div>
+      <div>
+        <h3>Local Video</h3>
+        <p>Meanwhile, local videos are videos that users can play when there is no scheduled video currently running.
+          These videos are played locally on each user’s device. The list of videos available for users is received via
+          a
+          web request, and the list can be managed by the admin through the web admin.</p>
+        <div class="project-video">
+          <iframe src="https://www.youtube.com/embed/pRd-YfpeuZs?si=3i1o9V6_T7bnGkbh&mute=1"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <p>&copy; 2024 KucingMaboek. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
